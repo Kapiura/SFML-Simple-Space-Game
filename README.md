@@ -9,6 +9,7 @@ If u want to play, u need to install SFML and C++ compilator, I was using g++ in
 Installing SFML on Ubutnu using apt\
 ***
 sudo apt install libsfml-dev
+sudo apt install g++
 ***
 \
 To run game, you need to get into directory "Source"\
@@ -16,3 +17,6 @@ Then write in your terminal command:
 ***
 g++ -o main main.cpp -lsfml-system -lsfml-graphics -lsfml-window; ./main
 ***
+\
+In the future I would like to make executable file, but idk when\
+*1000 years later*
