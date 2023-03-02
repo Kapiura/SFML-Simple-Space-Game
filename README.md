@@ -4,4 +4,15 @@ What you can find here is my first game in C++\
 using SFML.\
 I hope you like it, i know it isn't perfect but i tried my best.\
 xoxo Kapiura\
-If u want to play, u need to install SFML, conioh libraries.
+If u want to play, u need to install SFML and C++ compilator, I was using g++ in terminal.\
+\
+Installing SFML on Ubutnu using apt\
+***
+sudo apt install libsfml-dev
+***
+\
+To run game, you need to get into directory "Source"\
+Then write in your terminal command:
+***
+g++ -o main main.cpp -lsfml-system -lsfml-graphics -lsfml-window; ./main
+***
