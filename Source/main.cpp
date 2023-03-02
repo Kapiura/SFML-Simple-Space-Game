@@ -29,7 +29,7 @@ public:
 
     void init()
     {
-        txt.loadFromFile("aster.png");
+        txt.loadFromFile("Images/aster.png");
         aster.setTexture(txt);
     }
 
@@ -72,12 +72,12 @@ public:
 
     void init()
     {
-        statek.loadFromFile("ziut.png");
+        statek.loadFromFile("Images/ziut.png");
         ziut.setTexture(statek);
         ziut.setTextureRect(IntRect(0, 0, 64, 64));
         ziut.setPosition(w / 2 - 7, h - 64);
 
-        hpp.loadFromFile("health.png");
+        hpp.loadFromFile("Images/health.png");
         health.setTexture(hpp);
         sy = 0;
         health.setTextureRect(IntRect(0, sy, 26, 7));
@@ -119,7 +119,7 @@ public:
 
     void init()
     {
-        txt.loadFromFile("bullet.png");
+        txt.loadFromFile("Images/bullet.png");
         bullet.setTexture(txt);
         bullet.setTextureRect(IntRect(0, 0, 14, 20));
         relod = 0;
@@ -223,7 +223,7 @@ public:
     void init()
     {
 
-        font.loadFromFile("font.ttf");
+        font.loadFromFile("Fonts/font.ttf");
         text.setFont(font);
         text.setString("Hello World");
         text.setCharacterSize(24);
@@ -251,11 +251,11 @@ public:
 
     void init()
     {
-        btnt.loadFromFile("btn.png");
+        btnt.loadFromFile("Images/btn.png");
         btn.setTexture(btnt);
         btn.setPosition(375, 400);
 
-        font.loadFromFile("font.ttf");
+        font.loadFromFile("Fonts/font.ttf");
         text.setFont(font);
         text.setFillColor(Color::Red);
         text.setCharacterSize(50);
@@ -297,18 +297,18 @@ public:
 
     void init()
     {
-        btnt.loadFromFile("btn1.png");
+        btnt.loadFromFile("Images/btn1.png");
         btn.setTexture(btnt);
         btn.setPosition(375, 300);
 
-        font.loadFromFile("font.ttf");
+        font.loadFromFile("Fonts/font.ttf");
         text.setFont(font);
         text.setFillColor(Color::Red);
         text.setCharacterSize(50);
         text.setString("GAME OVER");
         text.setPosition(300, 200);
 
-        font.loadFromFile("font.ttf");
+        font.loadFromFile("Fonts/font.ttf");
         pkkt.setFont(font);
         pkkt.setFillColor(Color::Red);
         pkkt.setCharacterSize(50);
@@ -335,7 +335,7 @@ public:
 
     void init()
     {
-        txt.loadFromFile("tlo1.png");
+        txt.loadFromFile("Images/tlo1.png");
         aster.setTexture(txt);
     }
 
@@ -376,7 +376,7 @@ public:
 
     void init()
     {
-        txt.loadFromFile("apteczka.png");
+        txt.loadFromFile("Images/apteczka.png");
         aster.setTexture(txt);
     }
 
